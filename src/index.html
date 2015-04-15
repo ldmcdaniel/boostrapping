@@ -9,51 +9,55 @@
     <link rel="stylesheet" href="/css/main.css">
   </head>
   <body class="container">
-    <h1>Pet Shop</h1>
-    <table class="table col-md-8 table-hover">
-      <thead>
+    <div class="row">
+     <h1>Pet Shop</h1>
+      <table class="table col-md-8 table-hover">
+        <thead>
+          <tr>
+            <th>Photo</th>
+            <th>Name</th>
+            <th>Breed/Species</th>
+            <th>Action</th>
+          </tr>
+        </thead>
         <tr>
-          <th>Photo</th>
-          <th>Name</th>
-          <th>Breed/Species</th>
-          <th>Action</th>
+         <td><img src="http://upload.wikimedia.org/wikipedia/en/e/ed/PfeifferCatwoman.jpg" class="img-circle"></td>
+          <td>Giggles</td>
+          <td>Cat</td>
+          <td><button type="button" class="btn btn-success">Get</button></td>
         </tr>
-      </thead>
-      <tr>
-        <td><img src="http://i.imgur.com/k3LkD.jpg"></td>
-        <td>Giggles</td>
-        <td>Cat</td>
-        <td><button type="button" class="btn btn-success">Get</button></td>
-      </tr>
-       <tr>
-        <td><img src="http://i.imgur.com/4W4q790.jpg"></td>
-        <td>Wiggles</td>
-        <td>Lizard</td>
-        <td><button type="button" class="btn btn-success">Get</button></td>
-      </tr>
-      <tr>
-        <td><img src="http://i.imgur.com/r1ME37u.jpg"></td>
-        <td>Shingles</td>
-        <td>Bird</td>
-        <td><button type="button" class="btn btn-success">Get</button></td>
-      </tr>
-    </table>
-    <hr></hr>
-    <h2 class="col-md-6 col-md-offset-3">Add Pet</h2>
-    <form class="col-md-6 col-md-offset-3">
-      <div class="form-group">
-        <label for="adding-photos">Photos</label>
-        <input type="email" class="form-control" id="adding-photos" placeholder="URL for photos...">
-      </div>
-      <div class="form-group">
-        <label for="adding-name">Name</label>
-        <input type="text" class="form-control" id="adding-name" placeholder="Enter your name...">
-      </div>
-      <div class="form-group">
-        <label for="adding-breed">Breed/Species</label>
-        <input type="text" class="form-control" id="adding-breed" placeholder="Breed/Species name of pet...">
-      </div>
-      <button type="button" class="btn btn-info btn-lg">Save</button>
-    </form>
+         <tr>
+          <td><img src="http://www.mancertified.com/wp-content/uploads/2014/02/The-Lizard-Man.png" class="img-circle"></td>
+          <td>Wiggles</td>
+          <td>Lizard</td>
+          <td><button type="button" class="btn btn-success">Get</button></td>
+        </tr>
+        <tr>
+          <td><img src="http://i.imgur.com/r1ME37u.jpg" class="img-circle"></td>
+          <td>Shingles</td>
+          <td>Bird</td>
+          <td><button type="button" class="btn btn-success">Get</button></td>
+        </tr>
+     </table>
+    </div><!--End of top table container.-->
+      <hr></hr>
+      <div class="row">
+      <h2 class="col-md-6 col-md-offset-3">Add Pet</h2>
+      <form class="col-md-6 col-md-offset-3">
+        <div class="form-group">
+          <label for="adding-photos">Photos</label>
+          <input type="email" class="form-control" id="adding-photos" placeholder="URL for photos...">
+        </div>
+        <div class="form-group">
+          <label for="adding-name">Name</label>
+          <input type="text" class="form-control" id="adding-name" placeholder="Enter your name...">
+        </div>
+        <div class="form-group">
+          <label for="adding-breed">Breed/Species</label>
+          <input type="text" class="form-control" id="adding-breed" placeholder="Breed/Species name of pet...">
+        </div>
+        <button type="button" class="btn btn-info btn-lg">Save</button>
+      </form>
+    </div><!--End of form container.-->
   </body>
 </html>

@@ -1,10 +1,21 @@
 h1, h2 {
-  color: blue;
+  color: dodgerblue;
+  text-align: center;
 }
 td img {
   height: 50px;
   widtdh: 50px;
 }
-
+form button {
+  float: right;
+}
+.table{
+  background-color: mintcream;
+}
 form {
-  
+  background-color: mintcream;
+}
+body {
+  background-color: black;
+}
+
