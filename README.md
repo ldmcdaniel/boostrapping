@@ -1,8 +1,14 @@
-# Pet Shot
+# Pet Shop
+
+## What is the project about?
 
 This is an in-class project at NSS.
 
 The project was used to teach building a table with the data from form submissions.
+
+## What technologies do you use?
+
+NPM, Bootstrap
 
 ## Download and install:
 
@@ -17,15 +23,13 @@ The project was used to teach building a table with the data from form submissio
 *In your browser, navigate to:*
 >https://github.com/ldmcdaniel/boostrapping
 
-*In the top-right corner of the page, click:*
-
->Fork.
+*In the top-right corner of the page, click Fork.*
 
 *In your designated code directory, type:*
 
 ````git clone https://github.com/*Your-Username*/boostrapping````
 
-*From Terminal, type*
+*From Terminal:*
 
 ````cd boostrapping/src/````
 ````http-server -p 8109````
