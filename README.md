@@ -14,8 +14,10 @@ The project was used to teach building a table with the data from form submissio
 
 ````npm install http-server -g````
 
->In your browser, navigate to https://github.com/ldmcdaniel/boostrapping
->In the top-right corner of the page, click Fork.
+*In your browser, navigate to:*
+>https://github.com/ldmcdaniel/boostrapping
+*In the top-right corner of the page, click:*
+>Fork.
 
 *In your designated code directory, type:*
 
