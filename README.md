@@ -32,6 +32,7 @@ NPM, Bootstrap
 *From Terminal:*
 
 ````cd boostrapping/src/````
+
 ````http-server -p 8109````
 
 *Open you browser and navigate to:*
