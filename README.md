@@ -6,7 +6,7 @@ This is an in-class project at NSS.
 
 The project was used to teach building a table with the data from form submissions.
 
-## What technologies do you use?
+## What technologies do the project use?
 
 NPM, Bootstrap
 
@@ -37,3 +37,5 @@ NPM, Bootstrap
 *Open you browser and navigate to:*
 
 >http://localhost:8109/
+
+*Open your favorite text editor and enjoy!*
