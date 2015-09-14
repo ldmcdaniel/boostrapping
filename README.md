@@ -27,7 +27,9 @@ NPM, Bootstrap
 
 *In your designated code directory, type:*
 
-````git clone https://github.com/*Your-Username*/boostrapping````
+````git clone https://github.com/
+*Your-Username*
+/boostrapping````
 
 *From Terminal:*
 
